@@ -46,7 +46,7 @@ body {
 }
 .quote-text {
   float: left; /* Float the quote text to the left */
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .quote-image {
