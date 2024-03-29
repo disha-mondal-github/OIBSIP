@@ -45,7 +45,6 @@ body {
  overflow: hidden; /* Ensure proper containment */
 }
 .quote-text {
-  float: left; /* Float the quote text to the left */
   max-width: 100%;
 }
 
