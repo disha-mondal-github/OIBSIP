@@ -41,8 +41,7 @@ body {
   padding: 0 0 0 1rem;
 }
 
-.quote {
- overflow: hidden; /* Ensure proper containment */
+
 }
 .quote-text {
   max-width: 100%;
