@@ -41,16 +41,15 @@ body {
   padding: 0 0 0 1rem;
 }
 
-
+.tribute blockquote {
+  text-align: center;
+  font-size: 2.1rem;
 }
-.quote-text {
-  max-width: 100%;
-}
 
-.quote-image {
-  float: right; /* Float the image to the right */
-  margin-left: 20px; /* Add some space between image and text */
-  max-width: 100%; 
+.quote {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
 }
 
 .bio {
@@ -79,6 +78,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 
 @media screen and (max-width: 768px) {
   .container {
