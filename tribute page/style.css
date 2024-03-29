@@ -51,6 +51,7 @@ body {
 
 .quote-text {
   flex: 1;
+  float: left;
 }
 
 .quote-image {
@@ -59,9 +60,10 @@ body {
 }
 
 .quote-image img {
-  max-width: 100%;
+  max-width: 10%;
   height: auto;
-  display: block;
+  display: inline-block;
+  align:right;
 }
 
 .bio {
