@@ -41,30 +41,28 @@ body {
   padding: 0 0 0 1rem;
 }
 
-.tribute blockquote {
-  text-align: center;
-  font-size: 2.1rem;
-}
-
 .quote {
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-}
-.quote-with-image {
-  position: relative;
-  padding-left: 100px; /* Adjust as needed for image width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-left: 5px solid #333; /* Change the color as needed */
 }
 
-.quote-with-image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 80px; /* Adjust the width of the image */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 50%; /* Make it circular if needed */
+.quote-text {
+  flex: 1;
 }
 
+.quote-image {
+  flex-shrink: 0;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.quote-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 .bio {
   margin: 2rem auto;
