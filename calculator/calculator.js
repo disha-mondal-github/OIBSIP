@@ -6,10 +6,6 @@ function addToDisplay(value) {
   display.value = entered;
 }
 
-function ans() {
-  // Implement logic for 'ans' button if needed
-}
-
 function del() {
   entered = entered.slice(0, -1);
   display.value = entered;
@@ -18,10 +14,6 @@ function del() {
 function clr() {
   entered = '';
   display.value = '';
-}
-
-function toggleSign() {
-  // Implement logic for plus/minus sign button if needed
 }
 
 function calculate() {
